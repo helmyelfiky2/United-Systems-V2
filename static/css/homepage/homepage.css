@@ -1,0 +1,331 @@
+.navy-background{
+    background-color: #1c3a70 !important;
+}
+.bright-blue-background{
+    background-color: #0096ff !important;
+}
+.neon-blue-background{
+    background: linear-gradient(to bottom, #1f51ff, #ffffff) !important;
+}
+.style{
+    font-style: underline;
+}
+
+/* ********************************** HEADER SECTION ********************************** */
+.header{
+    border-radius: 5px;
+}
+#header-US-logo{
+    width: 174px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.header-background{
+    background-color: white !important;
+    opacity: 1;
+}
+
+.navmenu a{
+    color: black !important;
+}
+
+.navmenu a:hover{
+    color: #ff545a !important;
+}
+
+/* ********************************** END HEADER SECTION ********************************** */
+.hero img{
+    object-fit: cover !important;
+}
+.transparent{
+    background-color: transparent !important;
+}
+#hero {
+    position: relative;
+    background-color: transparent; /* Ensure the section has no background color */
+}
+#hero img {
+    display: block;
+    width: 100%;
+    background-color: transparent; /* Ensure the image has no background color */
+}
+.fixed-top{
+    position: relative !important;
+}
+/* ********************************** ABOUT SECTION ********************************** */
+/* #about{
+    text-align: justify;
+} */
+/* ********************************** END ABOUT SECTION ********************************** */
+.swiper {
+    width: 100%;
+    height: auto; /* Adjust based on your design */
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+}
+.swiper-slide img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    height: auto;
+    margin-top: -15px;
+    margin-right: 10px;
+    z-index: 10;
+    cursor: pointer;
+}
+#HP-logo{
+    max-width: 40%;
+}
+#Lenovo-logo{
+    max-width: 50%;
+}
+/* .logo-size{
+    max-width: 60%;
+} */
+#Lenovo-logo{
+    margin-left: 45px;
+}
+#HP-logo{
+    margin-left: 50px;
+}
+#symrise-logo{
+    max-width: 100%;
+}
+
+/************************** SERVICES SECTION ******************************/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+.services-section {
+    background-color: #1c3a70;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+.services-header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    color: white !important;
+}
+.services-header p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+    color: #d1d1d1 !important;
+}
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.service-card {
+    background-color: #f9f9f9;
+    color: #1c3a70;
+    padding: 20px 20px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.linear-background{
+    background: linear-gradient(to bottom, #0096ff, #ffffff);
+
+}
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+.service-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+.service-card p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+.learn-more {
+    color: #ff545a;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.learn-more:hover {
+    color: #ff7b7f;
+}
+.flip-card {
+    background-color: transparent;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.flip-card-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+} 
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+.flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    justify-content: center;
+    align-items: center;
+}
+/************************** END OF SERVICES SECTION ******************************/
+/************************** Clients SECTION ******************************/
+
+.section-title{
+    padding-bottom: 40px !important;
+}
+.stats-subtitle{
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+#merit-logo{
+    max-width: 70%;
+}
+#Hilton-logo{
+    max-width: 80%;
+}
+#dsb-logo{
+    max-width: 50%;
+    margin-left: 20px;
+    
+}
+#must-logo, #misr-logo{
+    max-width: 50%;
+}
+.section-title h2{
+    font-size: 2.5rem !important;
+}
+
+.header .logo h1{
+    font-size: 2rem !important;
+}
+
+.navmenu a{
+    font-size: 1.2rem !important;
+}
+
+#clients-title, #partners-title{
+    padding: 10px 0px !important;
+}
+
+/************************** CONTACT US SECTION ******************************/
+.contact .info-item h3{
+    margin: 0px !important;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.contact .info-item ul{
+    list-style: none;
+}
+.info-item i{
+    font-style: normal !important;
+    font-size: 30px !important;
+}
+.info-item li{
+    text-indent: 20px;
+}
+#contact-email, #open-hours{
+    font-size: 15px !important;
+}
+.padding-bottom{
+    padding-bottom: 62px !important;
+}
+.address-card{
+    padding-bottom: 42px !important;
+}
+#map-section iframe {
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+}
+.map{
+    padding: 0px 0px !important;
+}
+/************************** END OF CONTACT US SECTION ******************************/
+/* ******************************FOOTER SECTION**************************** */
+.footer a{
+    color: white !important;
+}
+.footer h4{
+    color: white !important;
+}
+.sitename{
+    color: white !important;
+}
+.footer .footer-links a:hover{
+    color: #ff545a !important;
+}
+.footer ul li{
+    list-style: none;
+    color: white !important;
+}
+.footer {
+    color: white !important;
+}
+.footer .social-links a{
+    border: 1px solid white !important;
+}
+.footer-social-links a:hover{
+    /* color: #ff545a !important; */
+    background-color: #ff545a !important;
+}
+
+.footer .copyright a:hover{
+    color: #ff545a !important;
+}
+.text-right{
+    text-align: right !important;
+}
+#US-logo{
+    max-width: 60%;
+}
+.footer-end-section{
+    display: grid;
+}
+.footer-end-section a:hover{
+    color: #ff545a !important;
+}
+
+/* ******************************END FOOTER SECTION**************************** */
