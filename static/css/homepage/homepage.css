@@ -102,10 +102,10 @@
     cursor: pointer;
 }
 #HP-logo{
-    max-width: 40%;
+    max-width: 50%;
 }
 #Lenovo-logo{
-    max-width: 50%;
+    max-width: 60%;
 }
 /* .logo-size{
     max-width: 60%;
@@ -143,12 +143,12 @@ body {
     margin-bottom: 40px;
     color: #d1d1d1 !important;
 }
-.services-container {
+/* .services-container {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-}
+} */
 .service-card {
     background-color: #f9f9f9;
     color: #1c3a70;
@@ -193,7 +193,7 @@ body {
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 .flip-card-inner {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
