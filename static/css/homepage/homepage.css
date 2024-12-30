@@ -4,11 +4,20 @@
 .bright-blue-background{
     background-color: #0096ff !important;
 }
+.blue-background-footer{
+    background-color: #0466c8 !important;
+}
 .neon-blue-background{
     background: linear-gradient(to bottom, #1f51ff, #ffffff) !important;
 }
 .style{
-    font-style: underline;
+    text-decoration: underline;
+}
+.blue-color{
+    color: #0466c8;
+}
+.bold{
+    font-weight: bold;
 }
 
 /* ********************************** HEADER SECTION ********************************** */
@@ -17,23 +26,22 @@
 }
 #header-US-logo{
     width: 174px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 0px;
+    margin-left: 30px;
 }
-
 .header-background{
     background-color: white !important;
     opacity: 1;
 }
-
+.navmenu{
+    margin-right: 30px;
+}
 .navmenu a{
     color: black !important;
 }
-
 .navmenu a:hover{
     color: #ff545a !important;
 }
-
 /* ********************************** END HEADER SECTION ********************************** */
 .hero img{
     object-fit: cover !important;
@@ -52,6 +60,9 @@
 }
 .fixed-top{
     position: relative !important;
+}
+.hero-title{
+    text-shadow: 2px 2px 5px black;
 }
 /* ********************************** ABOUT SECTION ********************************** */
 /* #about{
@@ -152,11 +163,13 @@ body {
 }
 .linear-background{
     background: linear-gradient(to bottom, #0096ff, #ffffff);
-
+}
+.smoke-white-background{
+    background-color: #F5F5F5 !important;
 }
 .service-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 .service-card h2 {
     font-size: 1.5rem;
@@ -202,6 +215,8 @@ body {
     color: black;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    width: 100%;
 }
 .flip-card-back {
     background-color: #2980b9;
@@ -217,7 +232,7 @@ body {
     padding-bottom: 40px !important;
 }
 .stats-subtitle{
-    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    color: #ff545a !important;
 }
 #merit-logo{
     max-width: 70%;
@@ -227,8 +242,7 @@ body {
 }
 #dsb-logo{
     max-width: 50%;
-    margin-left: 20px;
-    
+    margin-left: 20px; 
 }
 #must-logo, #misr-logo{
     max-width: 50%;
@@ -236,19 +250,15 @@ body {
 .section-title h2{
     font-size: 2.5rem !important;
 }
-
 .header .logo h1{
     font-size: 2rem !important;
 }
-
 .navmenu a{
     font-size: 1.2rem !important;
 }
-
 #clients-title, #partners-title{
     padding: 10px 0px !important;
 }
-
 /************************** CONTACT US SECTION ******************************/
 .contact .info-item h3{
     margin: 0px !important;
@@ -268,6 +278,9 @@ body {
 }
 #contact-email, #open-hours{
     font-size: 15px !important;
+}
+#contact-email{
+    /* color: blue !important; */
 }
 .padding-bottom{
     padding-bottom: 62px !important;

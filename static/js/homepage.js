@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
         slidesPerView: 6, // Number of logos visible at a time
         spaceBetween: 20, // Space between logos
         autoplay: {
-            delay: 5000, // Auto-scroll delay in ms
+            delay: 2000, // Auto-scroll delay in ms
             disableOnInteraction: false,
         },
         navigation: {
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 spaceBetween: 20,
             },
             1024: {
-                slidesPerView: 6,
+                slidesPerView: 7,
                 spaceBetween: 20,
             },
         },

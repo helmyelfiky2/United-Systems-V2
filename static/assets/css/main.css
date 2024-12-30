@@ -145,7 +145,7 @@ h6 {
 .header {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 20px 0;
+  padding: 10px 10px;
   transition: all 0.5s;
   z-index: 997;
 }
@@ -1011,7 +1011,7 @@ section,
 
 .stats:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 40%);
+  /* background: color-mix(in srgb, var(--background-color), transparent 40%); */
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -1030,7 +1030,7 @@ section,
 .stats .stats-item span {
   font-size: 48px;
   display: block;
-  color: var(--default-color);
+  color: white;
   font-weight: 700;
 }
 
