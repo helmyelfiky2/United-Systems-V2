@@ -150,16 +150,12 @@ h6 {
   z-index: 997;
 } */
 .header {
-  position: absolute;
-  top: 10px; /* Adjust as needed */
-  left: 50%;
-  transform: translateX(-50%);
-  width: 66.66667%; /* 8 columns out of 12 */
-  border-radius: 15px;
-  background-color:transparent; /* Optional: Add a background color with transparency */
+  position: relative;
+  width: 100%;
   z-index: 10; /* Ensure it is above other elements */
-  padding: 20px 20px; /* Adjust padding as needed */
-  
+  padding: 10px 20px; /* Adjust padding as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+  color: black;
 }
 .header .logo {
   line-height: 1;

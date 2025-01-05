@@ -29,25 +29,68 @@ html, body{
 }
 
 /* ********************************** HEADER SECTION ********************************** */
-.header{
-    border-radius: 8px;
-}
-#header-US-logo{
-    width: 174px;   
-    margin-right: 0px;
-    margin-left: 5px;
-    max-width: 20%;
-    height: 100%;
+
+#header-US-logo {
+    width: 150px; /* Adjust the width to make the logo bigger */
+    max-width: 100%;
+    height: auto;
 }
 .header-background{
-    background-color: white !important;
+    background-color: #f9f9f9 !important;
     opacity: 1;
 }
-.navmenu{
-    margin-right: 30px;
+.navmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navmenu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navmenu ul li {
+    margin: 0 15px; /* Adjust spacing between menu items */
+}
+.navmenu ul li a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.navmenu ul li a:hover {
+    color: var(--nav-hover-color);
+}
+.read-more {
+    background: var(--accent-color);
+    color: var(--contrast-color);
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    transition: 0.3s;
+    display: block;
+    text-align: center;
+}
+.read-more i {
+    font-size: 18px;
+    margin-left: 5px;
+    line-height: 0;
+    transition: 0.3s;
+}
+.read-more:hover {
+    background: color-mix(in srgb, var(--accent-color), transparent 80%);
+    padding-right: 19px;
+}
+.read-more:hover i {
+    margin-left: 10px;
 }
 .navmenu a{
-    color: white !important;
+    color: black !important;
     font-weight: bold;
 }
 .navmenu a:hover{
