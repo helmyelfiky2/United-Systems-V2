@@ -36,10 +36,10 @@ html, body{
     border-radius: 8px;
 }
 #header-US-logo {
-    width: 230px; /* Increase the width to make the logo bigger */
+    width: 180px; /* Increase the width to make the logo bigger */
     max-width: 100%;
     height: auto;
-    margin-left: 40px;
+    margin-left: 70px;
 }
 #header-US-logo-white{
     width: 30px; /* Increase the width to make the logo bigger */
@@ -117,7 +117,7 @@ html, body{
     margin-left: 10px;
 }
 #get-started-btn{
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 100px;
 }
 /* ********************************** END HERO SECTION ********************************** */
